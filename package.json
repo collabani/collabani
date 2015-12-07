@@ -1,6 +1,6 @@
 {
   "name": "collabani",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "devDependencies": {
     "autoprefixer": "^6.1.1",
     "css-loader": "^0.23.0",
