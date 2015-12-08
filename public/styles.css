@@ -1,5 +1,10 @@
+body {
+  display: flex;
+  border-radius: 50%;
+}
+
 .grid-item {
-  background: #red;
+  background: #2c3e50;
   height: 100px;
   margin-bottom: 20px;
 }
@@ -33,6 +38,6 @@
 
 @media screen and (min-width: 1300px) {
   .grid-one div {
-    lost-column: 1/4 4 50px;
+    lost-column: 1/4;
   }
 }
