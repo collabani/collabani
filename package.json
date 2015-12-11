@@ -1,22 +1,33 @@
 {
   "name": "collabani",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Collabani test server",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js & webpack -w --watch-poll --progress --colors",
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^6.1.1",
+    "autoprefixer": "^6.1.2",
     "css-loader": "^0.23.0",
     "lost": "^6.6.2",
     "node-static": "^0.7.7",
     "postcss": "^5.0.12",
     "postcss-loader": "^0.8.0",
-    "style-loader": "^0.13.0"
-  }
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gurmil/collabani.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gurmil/collabani/issues"
+  },
+  "homepage": "https://github.com/Gurmil/collabani#readme"
 }
