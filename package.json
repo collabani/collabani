@@ -1,7 +1,11 @@
 {
   "name": "collabani",
   "version": "0.1.0",
+<<<<<<< HEAD
   "description": "Collabani test server",
+=======
+  "description": "",
+>>>>>>> 47669f4b8c3e913a60d24ae7e151d568975bd3f6
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -9,7 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "devDependencies": {
     "autoprefixer": "^6.1.2",
     "css-loader": "^0.23.0",
