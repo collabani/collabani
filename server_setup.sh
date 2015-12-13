@@ -15,7 +15,7 @@ echo "----------------------------------------"
 
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install sudo curl
+sudo apt-get install sudo curl git -y
 # cd /srv && sudo mkdir collabani
 
 # Nodejs Setup
