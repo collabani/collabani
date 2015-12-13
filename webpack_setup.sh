@@ -17,23 +17,6 @@ sudo npm install webpack -g
 sudo npm install webpack-dev-server -g
 sudo npm install -D webpack webpack-dev-server css-loader style-loader postcss-loader html-loader
 
-# Webpack config file
-echo "----------------------------------------"
-echo "Creating webpack config file"
-echo "----------------------------------------"
-
-touch webpack.config.js
-
-# Add files and directories
-echo "----------------------------------------"
-echo "Adding workflow files and directories"
-echo "----------------------------------------"
-
-mkdir app public server
-cd app && touch main.js
-cd ../public && touch index.html styles.css
-cd ..
-
 echo "########################################"
 echo "...Webpack setup complete!"
 
