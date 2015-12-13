@@ -14,7 +14,8 @@ echo "----------------------------------------"
 
 cd /srv/collabani
 sudo npm install webpack -g
-npm install css-loader style-loader postcss-loader -D
+sudo npm install webpack-dev-server -g
+sudo npm install -D webpack webpack-dev-server css-loader style-loader postcss-loader html-loader
 
 # Webpack config file
 echo "----------------------------------------"
