@@ -45,7 +45,7 @@ Vagrant.configure(2) do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  config.vm.synced_folder "./", "/srv/collabani"
+  config.vm.synced_folder "./", "/srv/#{project_name}"
 
   # Use hostonly network with a static IP Address and enable
   # hostmanager so we can have a custom domain for the server
@@ -58,7 +58,8 @@ Vagrant.configure(2) do |config|
     node.hostmanager.aliases = [ "www." + project_name + ".local" ]
   end
   config.vm.provision :hostmanager
-
+  config.vm.provision "shell", path: "/srv/#{project_name}/server_setup.sh"
+  config.vm.provision "shell", path: "/srv/#{project_name}/webpack_setup.sh"
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:

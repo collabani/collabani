@@ -16,6 +16,7 @@ cd /srv/collabani
 sudo npm install webpack -g
 sudo npm install webpack-dev-server -g
 sudo npm install -D webpack webpack-dev-server css-loader style-loader postcss-loader html-loader
+sudo npm start
 
 echo "########################################"
 echo "...Webpack setup complete!"
