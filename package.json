@@ -11,8 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^6.1.2",
-    "css-loader": "^0.23.0",
+    "autoprefixer": "^6.2.1",
+    "css-loader": "^0.23.1",
     "html-loader": "^0.4.0",
     "lost": "^6.6.2",
     "node-static": "^0.7.7",
